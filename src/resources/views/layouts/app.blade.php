@@ -10,6 +10,11 @@
   <title>Contact Form</title>
 </head>
 <body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">Contact Form</a>
+    </div>
+  </header>
   <main>
     @yield('content')
   </main>
